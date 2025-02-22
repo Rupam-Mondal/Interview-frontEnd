@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
 import Home1 from "./pages/Home1";
+import Chat from "./pages/Chat";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/dashboard/:userid" element={<Dashboard />} />
+        <Route path='/chat/:chatid' element={<Chat />} />
       </Routes>
     </>
   );

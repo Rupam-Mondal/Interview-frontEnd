@@ -10,7 +10,7 @@ const Background = () => {
     <>
       <ScrollProgress className="top-[75px]" />
       <Particles
-        className="absolute min-h-[300vh] inset-2"
+        className="absolute min-h-[250vh] inset-2"
         quantity={500}
         ease={80}
         color="#ffffff"
